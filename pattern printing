@@ -1,0 +1,122 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    for(int i=1;i<=4;i++)
+    {
+        for(int j=1;j<=3;j++)
+        {
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+}
+o/p:  * * * 
+      * * *
+      * * *
+      * * *
+      -----------------------------------------------------------------------------------------------------------------
+      
+      #include<iostream>
+using namespace std;
+
+int main()
+{
+    for(int i=1;i<=5;i++)
+    {
+        for(int j=0;j<=5;j++)
+        {
+            cout<<i<<" ";
+        }
+        cout<<endl;
+    }
+}
+      
+      
+  o/p:
+  
+ 1 1 1 1 1 1 
+2 2 2 2 2 2
+3 3 3 3 3 3 
+4 4 4 4 4 4
+-----------------------------------------------------------------------------------------------------------------------
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    for(int i=1;i<=5;i++)
+    {
+        for(int j=0;j<=5;j++)
+        {
+            cout<<j<<" ";
+        }
+        cout<<endl;
+    }
+}
+      
+
+o/p:
+1 2 3 4 5 
+1 2 3 4 5
+1 2 3 4 5
+
+1 2 3 4 5
+1 2 3 4 5
+PS C:\Users\arunp\OneDrive\Documents>
+
+-----------------------------------------------------
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    for(int i=1;i>=1;i++)
+    {
+        for(int j=5;j<=1;j++)
+        {
+            cout<<j<<" ";
+        }
+        cout<<endl;
+    }
+}
+
+
+C:\Users\arunp\OneDrive\Desktop\standerd programes> cd "c:\Users\arunp\OneDrive\Desktop\standerd programes\" ; if ($?) { g++ pat.cpp -o pat } ; if ($?) { .\pat }
+54321
+54321
+54321
+----------------------------------------------------------
+include<iostream>
+using namespace std;
+
+int main()
+{
+    for(char i='A';i<='E';i++)
+    {
+        for(char j='A';j<='E';j++)
+        {
+            cout<<i;
+        }
+        cout<<"\n";
+
+    }
+    }
+   op:
+   AAAAA
+BBBBB
+CCCCC
+DDDDD
+EEEEE
+---------------
+
+
+
+
+      
+      
+      
+      
+
